@@ -65,6 +65,16 @@
     <p>The development of efficient and robust locomotion policies for legged robots remains a significant challenge, often necessitating intricate reward function design and extensive dataset typically in conventional offline reinforcement learning frameworks. To solve this problem, we introduce Adaptive Diffusion Policy (ADP), a novel approach by employing a diffusion policy that generates robot action sequences from observations via offline training. Unlike conventional online reinforcement learning, which requires hundreds of million environment interactions, the offline setting of ADP allows for more sample-efficient learning by leveraging one million pre-collected data. By leveraging the stochastic nature of diffusion models, ADP is able to capture the underlying dynamics of diverse terrains, enabling more robust decision-making compared to deterministic RL policies. To further enhance the performance of the ADP, we employed a reward optimization fine-tuning phase. This fine-tuning process allowed for the refinement of the policy, enabling the robot to achieve even better adaptation and higher rewards across various terrains. This work contributes to the field by offering a promising alternative to purely online RL learning, potentially advancing the development of more efficient and adaptable locomotion strategies for legged robots. Experimental results demonstrate that ADP enables the robot to adaptively navigate diverse terrains, while achieving superior rewards and improving utilization efficiency compared to conventional RL baselines. Upon the publication of this paper, the code will be open source.</p>
 </section>
 
+<section>
+    <h2>Methods</h2>
+    
+    <!-- First Image -->
+    <img src="images/Structure.png" alt="ADP Training Framework">
+    
+    <!-- Second Image -->
+    <img src="images/rollout.png" alt="Robot control using Adaptive Diffusion Policy">
+</section>
+
 <footer>
     <p>&copy; 2024 ADP Project. All Rights Reserved.</p>
 </footer>
